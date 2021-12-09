@@ -27,19 +27,29 @@ let animationFunctions = [];
 // Animated Text
 let textList = [
   {
-    text: ["Nterface"],
+    text: ["Crestron  Integration"],
     in: [an.SLIDE_DOWN, an.SLIDE_UP],
     out: [an.SLIDE_DOWN, an.SLIDE_UP],
   },
   {
-    text: ["Full   Stack   Design"],
+    text: ["Github Portfolio"],
     in: [an.SLIDE_RIGHT, an.SLIDE_DOWN, an.SLIDE_LEFT],
     out: [an.SLIDE_RIGHT, an.FADE_OUT, an.SLIDE_LEFT],
   },
   {
-    text: ["Crestron Integration"],
+    text: ["Social Media"],
     in: [an.FADE_IN, an.FADE_IN],
     out: [an.SLIDE_RIGHT, an.SLIDE_LEFT],
+  },
+  {
+    text: ["Full Stack Engineer"],
+    in: [an.SLIDE_DOWN, an.SLIDE_UP],
+    out: [an.SLIDE_DOWN, an.SLIDE_UP],
+  },
+  {
+    text: ["Aevio Automation"],
+    in: [an.SLIDE_RIGHT, an.SLIDE_DOWN, an.SLIDE_LEFT],
+    out: [an.SLIDE_RIGHT, an.FADE_OUT, an.SLIDE_LEFT],
   },
 ];
 let animatedTextContainer = document.getElementsByClassName("animated-text")[0];
@@ -54,11 +64,11 @@ setTimeout(
 
 // Carousel
 const images = [
-  { src: "images/carousel/cloud.png", alt: "UFO" },
-  { src: "images/carousel/surf.png", alt: "surf" },
-  { src: "images/carousel/astro.png", alt: "UFO" },
-  { src: "images/carousel/ufo.png", alt: "surf" },
-  { src: "images/carousel/cloud.png", alt: "UFO" },
+  { src: "images/carousel/tech.png", alt: "Crestron" },
+  { src: "images/carousel/git.png", alt: "Git" },
+  { src: "images/carousel/tech1.png", alt: "IG" },
+  { src: "images/carousel/vue1.png", alt: "mevn" },
+  { src: "images/carousel/astro.png", alt: "aevio" },
 ];
 let carouselDiv = document.getElementById("carousel-div");
 let carousel = new Carousel(carouselDiv, images, {
@@ -90,29 +100,29 @@ path.render();
 // Circle Objects
 let circles = [
   {
-    iconCode: "&#xf1b4;",
+    iconCode: "&#xf16d;",
     path: path,
     description: { title: "instagram", text: "Social Media" },
   },
   {
-    iconCode: "&#xf09b;",
+    iconCode: "&#xf113;",
     path: path,
     description: { title: "Github", text: "Latest Projects" },
   },
   {
-    iconCode: "&#xf08c;",
+    iconCode: "&#xf0ee;",
     path: path,
-    description: { title: "LinkedIn", text: " My Experience" },
+    description: { title: "Crestron", text: " UX/UI Interfaces" },
   },
   {
-    iconCode: "&#xf167;",
+    iconCode: "&#xf135;",
     path: path,
-    description: { title: "YouTube", text: "Quality Content" },
+    description: { title: "Aevio", text: "Automation Systems" },
   },
   {
-    iconCode: "&#xf09a;",
+    iconCode: "&#xf078;",
     path: path,
-    description: { title: "Facebook", text: "Social Media" },
+    description: { title: "M.E.V.N.", text: "Mongoose.Express.Vue.Node." },
   },
 ];
 let circlesGroup = document.createElementNS(SVG_DOC, "g");

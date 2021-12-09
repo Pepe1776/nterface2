@@ -1,4 +1,6 @@
 # Vanilla JS Landing Page with SVG Animations
+##### [Open Live Preview](https://dev-tarek.github.io/vanilla-animated-landing/)
+![](images/preview.png)
 ___
 ## Contents
 * [Introduction](#introduction)
